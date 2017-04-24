@@ -1,0 +1,19 @@
+{
+  "name": "time-range",
+  "version": "0.0.1",
+  "description": "time range functions",
+  "main": "./lib/time-range",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshhiide/time-range.git"
+  },
+  "author": "Yoshihide Nabeyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoshhiide/time-range/issues"
+  },
+  "homepage": "https://github.com/yoshhiide/time-range#readme"
+}
