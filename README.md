@@ -26,5 +26,20 @@ console.log( 'total seconds = ' + timeRange.calc(times, 'seconds') );
 // total seconds = 100920
 ```
 
+overlap check  
+
+```js
+const times2 = [
+  [ new Date(2017, 3, 24, 10, 10, 0), new Date(2017, 3, 25, 2, 10, 30) ],
+  [ new Date(2017, 3, 25, 2, 10, 29), new Date(2017, 3, 25, 2, 30, 30) ],
+];
+
+if (timeRange.overlap(times2)) {
+  console.log( 'not overlap.' );
+} else {
+  console.log( 'overlap or bad case.' );
+}
+```
+
 ### LICENSE
 MIT
