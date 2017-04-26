@@ -25,3 +25,10 @@ if (timeRange.overlap(times2)) {
 } else {
   console.log( 'overlap or bad case.' );
 }
+
+// valid date in array
+if (!timeRange.validDateArray(times) || !timeRange.validDateArray(times2)) {
+  console.log( 'not date in array' );
+} else {
+  console.log( 'all date' );
+}

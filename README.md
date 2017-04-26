@@ -41,5 +41,15 @@ if (timeRange.overlap(times2)) {
 }
 ```
 
+valid date in array  
+
+```js
+if (!timeRange.validDateArray(times) || !timeRange.validDateArray(times2)) {
+  console.log( 'not date in array' );
+} else {
+  console.log( 'all date' );
+}
+```
+
 ### LICENSE
 MIT
